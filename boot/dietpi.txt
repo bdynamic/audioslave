@@ -38,6 +38,7 @@ AUTO_Global_Password=dietpi
 #3.5 Plug: 						rpi-bcm2835-3.5mm 
 #HDMI with 3.5 Plug Fallback: 	rpi-bcm2835
 #Digital shield: 				hifiberry-digi
+#PHAT DAC						hifiberry-dac
 soundcard=rpi-bcm2835-3.5mm
 
 
