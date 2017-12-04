@@ -1,7 +1,7 @@
 #!/bin/bash
 SNAPSERVER="labmusic"				#this is the master server
 DEFAULTPLAYLIST="defaultwebradio"	#defauf playplist to play if we don't use snapcast
-MPDHOST="testmusic"					#the host to play webradio (e.g localhost)
+MPDHOST="localhost"					#the host to play webradio (e.g localhost)
 
 ERRORCOUNTER=10
 #---------------------------------------------------------------------------------
