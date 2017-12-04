@@ -7,7 +7,7 @@ ERRORCOUNTER=10
 #---------------------------------------------------------------------------------
 MPDCALL="/usr/bin/mpc -h $MPDHOST"	#the default mpc call
 
-
+sleep 5
 
 mpc -h "$SNAPSERVER" |grep "playing"
 if [ "$?" == 0 ]; then
@@ -25,7 +25,7 @@ else
 	i=0
 	while [ $EXCODE -ne 0 ]
 	do
-		sleep 0.5
+		sleep 1
 		#echo "Retry to send play"
 		$MPDCALL play
 		i=$[$i+1]
